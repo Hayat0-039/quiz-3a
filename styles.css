@@ -147,7 +147,7 @@ footer a {
 /* TASK 1: Use flexbox. The logo and the menu should sit on one line in
    the green bar, with the logo at the far left and the menu at the
    far right, both lined up with the middle of the bar. */
-.header {
+.nav-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
