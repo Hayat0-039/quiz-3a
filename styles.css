@@ -184,7 +184,14 @@ footer a {
 /* TASK 5: Use grid. The gallery should have three equal-width columns
    with 10px of space between the photos. The rock photo (it has the
    class wide) should stretch across the first two columns. */
-
+.gallery-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  .wide {
+    grid-column: span 2;
+  }
+}
 
 
 /* TASK 6: Use flexbox. The copyright should sit at the far left of the
