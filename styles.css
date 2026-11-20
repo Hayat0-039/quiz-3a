@@ -165,7 +165,11 @@ nav {
 /* TASK 3: Use flexbox. The intro heading should sit to the left of the
    paragraph, lined up with the middle of it, with 40px of space
    between them. */
-
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 
 /* TASK 4: Use grid. The four cards should sit side by side in four
