@@ -197,7 +197,11 @@ footer a {
 /* TASK 6: Use flexbox. The copyright should sit at the far left of the
    footer and the Back to top link at the far right, both lined up
    with the middle of the footer. */
-
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 /* ---------- DONE FOR YOU: SMALL SCREENS ----------
