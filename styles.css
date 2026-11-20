@@ -156,7 +156,7 @@ footer a {
 
 /* TASK 2: Use flexbox. The three menu links should sit side by side in
    a row, with 20px of space between them. */
-nav {
+.nav-wrap ul {
     display: flex;
     gap: 20px;
 }
@@ -174,7 +174,11 @@ nav {
 
 /* TASK 4: Use grid. The four cards should sit side by side in four
    equal-width columns, with 20px of space between them. */
-
+.lichen-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
 
 
 /* TASK 5: Use grid. The gallery should have three equal-width columns
