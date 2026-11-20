@@ -156,7 +156,10 @@ footer a {
 
 /* TASK 2: Use flexbox. The three menu links should sit side by side in
    a row, with 20px of space between them. */
-
+nav {
+    display: flex;
+    gap: 20px;
+}
 
 
 /* TASK 3: Use flexbox. The intro heading should sit to the left of the
